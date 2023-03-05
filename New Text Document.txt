@@ -1,0 +1,4 @@
+C:
+cd "C:\Program Files\Microsoft MPI\Bin"
+mpiexec.exe -n 2 "D:\Paralelni sistemi Github\Parallel_Systems\MPI_Proba\x64\Debug\MPI_Proba.exe"
+@pause

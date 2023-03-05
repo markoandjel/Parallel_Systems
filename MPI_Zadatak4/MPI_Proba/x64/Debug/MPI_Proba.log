@@ -1,0 +1,5 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (MPI_Proba.vcxproj, MPI_Zad2.vcxproj, MPI_Zad3.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MPI_Zad4.cpp
+D:\Paralelni sistemi Github\Parallel_Systems\MPI_Zadatak4\MPI_Proba\MPI_Zad4.cpp(10,30): warning C4101: 'value': unreferenced local variable
+D:\Paralelni sistemi Github\Parallel_Systems\MPI_Zadatak4\MPI_Proba\MPI_Zad4.cpp(11,15): warning C4101: 'mystruct': unreferenced local variable
+  MPI_Proba.vcxproj -> D:\Paralelni sistemi Github\Parallel_Systems\MPI_Zadatak4\x64\Debug\MPI_Zad4.exe

@@ -1,0 +1,3 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(517,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (MPI_Proba.vcxproj, MPI_Zad2.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  MPI_Zad3.cpp
+  MPI_Proba.vcxproj -> D:\Paralelni sistemi Github\Parallel_Systems\MPI_Zadatak3\x64\Debug\MPI_Zad3.exe
