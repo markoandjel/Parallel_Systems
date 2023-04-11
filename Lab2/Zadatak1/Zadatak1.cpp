@@ -1,79 +1,88 @@
-﻿/*Napisati MPI program koji na osnovu kvadratne matrice reda m šalje kvazidijagonale matrice.
-U root procesu kreira se matrica i n - tom procesu se šalju po dve kvazidijagonale, obe na
-udaljenosti n od sporedne dijagonale.Primljene dijagonale biće smeštene u drugu i treću vrstu
-matrice n - tog procesa, dok će ostali elementi matrice biti popunjeni jedinicama.Korisniku
-prikazati vrednosti odgovarajućih vrsta, a komunikaciju realizovati korišćenjem izvedenih tipova
-podataka.*/
+﻿/*Napisati MPI program koji kreira komunikator koga čine svi procesi sa identifikatorima 
+deljivim sa 5. Master proces (P0) svim procesima ove grupe šalje po jednu kolone matrice A.
+Odštampati identifikatore procesa koji pripadaju novom komunikatoru, a čija suma elemenata
+primljene kolone matrice A nije manja od zadate vrednosti v.*/
 
-#include <iostream>
-#include "mpi.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+#include <mpi.h>
+
+int initialize_matrix(int** A, int n, int m, int def = -1);
+int array_sum(int* v, int n, int* sum);
+int print_matrix(int* A, int n, int m);
+
 int main(int argc, char** argv)
 {
-	int rank;
+    const int v = 10, m = 5;
+    MPI_Init(&argc, &argv);
 
-	MPI_Init(&argc, &argv);
-	MPI_Comm_rank(MPI_COMM_WORLD, &rank);
-	const int m = 8;
-	int A[m][m], B[m][m], i, j;
-	MPI_Status status;
-	MPI_Request req;
+    int rank, size;
+    MPI_Comm_rank(MPI_COMM_WORLD, &rank);
+    MPI_Comm_size(MPI_COMM_WORLD, &size);
 
-	if (rank == 0)
-	{
-		for (i = 0; i < m; i++)
-		{
-			for (j = 0; j < m; j++)
-			{
-				A[i][j] = i + j*m;
-				printf("%d ", A[i][j]);
-			}
-			printf("\n");
-		}
-		fflush(stdout);
+    MPI_Comm comm1;
+    MPI_Comm_split(MPI_COMM_WORLD, rank % 5, rank, &comm1);
+    if (rank % 5 == 0)
+    {
+        int* A{}, * local_A, comm1_rank, sum, n;
+        MPI_Comm_rank(comm1, &comm1_rank);
+        MPI_Comm_size(comm1, &n);
 
-		
-	}
+        if (!comm1_rank) {
+            initialize_matrix(&A, n, m);
+            // print_matrix(A, n, m);
+            // fflush(stdout);
+        }
 
-	for (i = 0; i < m; i++) //Postavljanje elemenata matrice B na jedinicu
-		for(j=0;j<m;j++)
-			B[i][j] = 1;
-	MPI_Datatype send_type;
-	MPI_Type_create_resized(MPI_INT, 0, (m - 1) * sizeof(int), &send_type); //sporedna dijagonala ima najvise m-1 elemenata
-	MPI_Type_commit(&send_type);
+        initialize_matrix(&local_A, 1, m, 0);
+        MPI_Scatter(A, m, MPI_INT, local_A, m, MPI_INT, 0, comm1);
 
-	if (rank == 0)
-	{
-		for (i = 0; i < m/2; i++)
-		{
-			MPI_Isend(&A[0][m - 1 - i], m - i, send_type, i, 0, MPI_COMM_WORLD, &req);
-			MPI_Isend(&A[i][m - 1], m - i, send_type, i, 0, MPI_COMM_WORLD, &req);
-		}
-	}
+        if (!comm1_rank)
+            free(A);
 
-	MPI_Recv(&B[1][0], (m - rank), MPI_INT, 0, 0, MPI_COMM_WORLD, &status); //upis elemenata u B matricu
-	MPI_Recv(&B[2][0], (m - rank), MPI_INT, 0, 0, MPI_COMM_WORLD, &status);
+        array_sum(local_A, m, &sum);
+        // printf("P[%d](%d): ", rank, comm1_rank);
+        // print_matrix(local_A, 1, m);
+        // fflush(stdout);
+        free(local_A);
 
-	printf("Proces P: %d\n", rank);
-	for (i = 0; i < m; i++)
-	{
-		for (j = 0;j < m; j++)
-		{
-			printf("%d ", B[i][j]);
-		}
-		printf("\n");
-	}
+        if (sum > v)
+        {
+            printf("P[%d](%d): %d\n", rank, comm1_rank, sum);
+            fflush(stdout);
+        }
+    }
 
-
-	MPI_Finalize();
+    MPI_Finalize();
+    return 0;
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
+int initialize_matrix(int** A, int n, int m, int def)
+{
+    (*A) = (int*)malloc(sizeof(int) * n * m);
+    if (def == -1)
+        for (int i = 0; i < n * m; (*A)[i++] = i);
+    else
+        for (int i = 0; i < n * m; (*A)[i++] = def);
+    return 1;
+}
 
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
+int array_sum(int* v, int n, int* sum)
+{
+    (*sum) = 0;
+    for (int i = 0; i < n; (*sum) += v[i++]);
+    return 1;
+}
+
+int print_matrix(int* A, int n, int m)
+{
+    for (int i = 0; i < n; i++)
+    {
+        printf("|\t");
+        for (int j = 0; j < m; j++)
+            printf("%d\t", A[i * m + j]);
+        printf("|\n");
+    }
+    return 1;
+}

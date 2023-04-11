@@ -1,0 +1,3 @@
+﻿  Zadatak4.cpp
+D:\Paralelni sistemi Github\Parallel_Systems\Lab2\Zadatak4\Zadatak4.cpp(25,13): warning C4244: '=': conversion from 'double' to 'int', possible loss of data
+  Zadatak4.vcxproj -> D:\Paralelni sistemi Github\Parallel_Systems\Lab2\x64\Debug\Zadatak4.exe
