@@ -1,0 +1,137 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30E33EAC-144E-4600-9852-39AAD39E25B8}|Januarski 2023\\Januarski 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Januarski 2023\\Januarski 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{30E33EAC-144E-4600-9852-39AAD39E25B8}|Januarski 2023\\Januarski 2023.vcxproj|solutionrelative:Januarski 2023\\Januarski 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FADF8D17-35A5-41EE-BDD6-E728A01B005A}|Januarski 2024\\Januarski 2024.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Januarski 2024\\Januarski 2024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FADF8D17-35A5-41EE-BDD6-E728A01B005A}|Januarski 2024\\Januarski 2024.vcxproj|solutionrelative:Januarski 2024\\Januarski 2024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59A74B87-133A-4C04-B31A-5189E6B39007}|Septembarski 2023\\Septembarski 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Septembarski 2023\\Septembarski 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{59A74B87-133A-4C04-B31A-5189E6B39007}|Septembarski 2023\\Septembarski 2023.vcxproj|solutionrelative:Septembarski 2023\\Septembarski 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{56757AAC-9FE3-401B-A4B8-9A1CDBD7492C}|Oktobarski 2023\\Oktobarski 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Oktobarski 2023\\Oktobarski 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{56757AAC-9FE3-401B-A4B8-9A1CDBD7492C}|Oktobarski 2023\\Oktobarski 2023.vcxproj|solutionrelative:Oktobarski 2023\\Oktobarski 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05BC4EB2-AC68-4B71-93B2-D88A85D9698B}|Oktobarski 2 2023\\Oktobarski 2 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Oktobarski 2 2023\\Oktobarski 2 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{05BC4EB2-AC68-4B71-93B2-D88A85D9698B}|Oktobarski 2 2023\\Oktobarski 2 2023.vcxproj|solutionrelative:Oktobarski 2 2023\\Oktobarski 2 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EB9E5549-9BE3-4FD2-A834-767FABC6FFA2}|Decembarski 2023\\Decembarski 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Decembarski 2023\\Decembarski 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{EB9E5549-9BE3-4FD2-A834-767FABC6FFA2}|Decembarski 2023\\Decembarski 2023.vcxproj|solutionrelative:Decembarski 2023\\Decembarski 2023.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{94466ADB-3256-410A-B626-EF2DC2912EA1}|Junski 2024\\Junski 2024.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Junski 2024\\Junski 2024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{94466ADB-3256-410A-B626-EF2DC2912EA1}|Junski 2024\\Junski 2024.vcxproj|solutionrelative:Junski 2024\\Junski 2024.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Januarski 2023.cpp",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Januarski 2023\\Januarski 2023.cpp",
+              "RelativeDocumentMoniker": "Januarski 2023\\Januarski 2023.cpp",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Januarski 2023\\Januarski 2023.cpp",
+              "RelativeToolTip": "Januarski 2023\\Januarski 2023.cpp",
+              "ViewState": "AQIAADAAAAAAAAAAAAAAAAYAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-02T20:59:15.985Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Septembarski 2023.cpp",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Septembarski 2023\\Septembarski 2023.cpp",
+              "RelativeDocumentMoniker": "Septembarski 2023\\Septembarski 2023.cpp",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Septembarski 2023\\Septembarski 2023.cpp",
+              "RelativeToolTip": "Septembarski 2023\\Septembarski 2023.cpp",
+              "ViewState": "AQIAAAcAAAAAAAAAAAAAwBcAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-02T19:46:35.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Oktobarski 2023.cpp",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Oktobarski 2023\\Oktobarski 2023.cpp",
+              "RelativeDocumentMoniker": "Oktobarski 2023\\Oktobarski 2023.cpp",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Oktobarski 2023\\Oktobarski 2023.cpp",
+              "RelativeToolTip": "Oktobarski 2023\\Oktobarski 2023.cpp",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAACUAAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-02T18:46:17.351Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Oktobarski 2 2023.cpp",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Oktobarski 2 2023\\Oktobarski 2 2023.cpp",
+              "RelativeDocumentMoniker": "Oktobarski 2 2023\\Oktobarski 2 2023.cpp",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Oktobarski 2 2023\\Oktobarski 2 2023.cpp",
+              "RelativeToolTip": "Oktobarski 2 2023\\Oktobarski 2 2023.cpp",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAsAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-02T11:15:17.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Decembarski 2023.cpp",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Decembarski 2023\\Decembarski 2023.cpp",
+              "RelativeDocumentMoniker": "Decembarski 2023\\Decembarski 2023.cpp",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Decembarski 2023\\Decembarski 2023.cpp",
+              "RelativeToolTip": "Decembarski 2023\\Decembarski 2023.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-02T09:49:36.675Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Januarski 2024.cpp",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Januarski 2024\\Januarski 2024.cpp",
+              "RelativeDocumentMoniker": "Januarski 2024\\Januarski 2024.cpp",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Januarski 2024\\Januarski 2024.cpp",
+              "RelativeToolTip": "Januarski 2024\\Januarski 2024.cpp",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-02T08:53:12.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Junski 2024.cpp",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Junski 2024\\Junski 2024.cpp",
+              "RelativeDocumentMoniker": "Junski 2024\\Junski 2024.cpp",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\OPENMP_blanketi\\Junski 2024\\Junski 2024.cpp",
+              "RelativeToolTip": "Junski 2024\\Junski 2024.cpp",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAACMAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-07-02T07:25:01.363Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

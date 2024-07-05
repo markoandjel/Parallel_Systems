@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "name": "CUDA C++: Attach",
+            "type": "cuda-gdb",
+            "request": "attach",
+            "processId": "${command:cuda.pickProcess}"
+        },
+        {
+            "name": "CUDA C++: Launch",
+            "type": "cuda-gdb",
+            "request": "launch",
+            "program": "${workspaceFolder}/main"
+        }],
+    "version": "2.0.0"
+}

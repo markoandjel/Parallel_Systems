@@ -1,0 +1,151 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{A00B1C96-7F6B-4FF0-B296-5FFFE2AB12CA}|Junski 2 2023\\Junski 2 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Junski 2 2023\\jun2_2023.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A00B1C96-7F6B-4FF0-B296-5FFFE2AB12CA}|Junski 2 2023\\Junski 2 2023.vcxproj|solutionrelative:Junski 2 2023\\jun2_2023.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5CB4B1B9-77AD-440E-B6C0-EBA409DEFD65}|Junski 2024\\Junski 2024.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Junski 2024\\jun_2024.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5CB4B1B9-77AD-440E-B6C0-EBA409DEFD65}|Junski 2024\\Junski 2024.vcxproj|solutionrelative:Junski 2024\\jun_2024.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9817279-3404-46E4-AD9D-6AE196DE9485}|Decembarski 2023\\Decembarski 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Decembarski 2023\\dec_2023.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{B9817279-3404-46E4-AD9D-6AE196DE9485}|Decembarski 2023\\Decembarski 2023.vcxproj|solutionrelative:Decembarski 2023\\dec_2023.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5557E8CF-0123-45F5-91F2-26FBC6B76054}|Oktobarski 2023\\Oktobarski 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Oktobarski 2023\\okt_2023.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{5557E8CF-0123-45F5-91F2-26FBC6B76054}|Oktobarski 2023\\Oktobarski 2023.vcxproj|solutionrelative:Oktobarski 2023\\okt_2023.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CD34F339-DB75-4E23-88B3-72F5C1144CFB}|Oktobarski 2 2023\\Oktobarski 2 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Oktobarski 2 2023\\okt2_2023.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{CD34F339-DB75-4E23-88B3-72F5C1144CFB}|Oktobarski 2 2023\\Oktobarski 2 2023.vcxproj|solutionrelative:Oktobarski 2 2023\\okt2_2023.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A163DE1-ACEE-44B7-A4CA-673682D49382}|Januarski 2024\\Januarski 2024.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Januarski 2024\\jan_2024.cu||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{8A163DE1-ACEE-44B7-A4CA-673682D49382}|Januarski 2024\\Januarski 2024.vcxproj|solutionrelative:Januarski 2024\\jan_2024.cu||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B9817279-3404-46E4-AD9D-6AE196DE9485}|Decembarski 2023\\Decembarski 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Decembarski 2023\\Screenshot 2024-06-30 141131.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{B9817279-3404-46E4-AD9D-6AE196DE9485}|Decembarski 2023\\Decembarski 2023.vcxproj|solutionrelative:Decembarski 2023\\Screenshot 2024-06-30 141131.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A00B1C96-7F6B-4FF0-B296-5FFFE2AB12CA}|Junski 2 2023\\Junski 2 2023.vcxproj|D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Junski 2 2023\\Screenshot 2024-06-30 114559.png||{58961B49-13E0-48C0-9258-13CBC4D40279}",
+      "RelativeMoniker": "D:0:0:{A00B1C96-7F6B-4FF0-B296-5FFFE2AB12CA}|Junski 2 2023\\Junski 2 2023.vcxproj|solutionrelative:Junski 2 2023\\Screenshot 2024-06-30 114559.png||{58961B49-13E0-48C0-9258-13CBC4D40279}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "okt_2023.cu",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Oktobarski 2023\\okt_2023.cu",
+              "RelativeDocumentMoniker": "Oktobarski 2023\\okt_2023.cu",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Oktobarski 2023\\okt_2023.cu",
+              "RelativeToolTip": "Oktobarski 2023\\okt_2023.cu",
+              "ViewState": "AQIAACgAAAAAAAAAAAD4vzkAAAALAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-04T09:23:04.326Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "okt2_2023.cu",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Oktobarski 2 2023\\okt2_2023.cu",
+              "RelativeDocumentMoniker": "Oktobarski 2 2023\\okt2_2023.cu",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Oktobarski 2 2023\\okt2_2023.cu",
+              "RelativeToolTip": "Oktobarski 2 2023\\okt2_2023.cu",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAA4AAAAPAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-07-01T19:36:27.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Screenshot 2024-06-30 141131.png",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Decembarski 2023\\Screenshot 2024-06-30 141131.png",
+              "RelativeDocumentMoniker": "Decembarski 2023\\Screenshot 2024-06-30 141131.png",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Decembarski 2023\\Screenshot 2024-06-30 141131.png",
+              "RelativeToolTip": "Decembarski 2023\\Screenshot 2024-06-30 141131.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-30T12:12:34.706Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "dec_2023.cu",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Decembarski 2023\\dec_2023.cu",
+              "RelativeDocumentMoniker": "Decembarski 2023\\dec_2023.cu",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Decembarski 2023\\dec_2023.cu",
+              "RelativeToolTip": "Decembarski 2023\\dec_2023.cu",
+              "ViewState": "AQIAAG8AAAAAAAAAAAAAAAMAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-30T12:12:17.463Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "jan_2024.cu",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Januarski 2024\\jan_2024.cu",
+              "RelativeDocumentMoniker": "Januarski 2024\\jan_2024.cu",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Januarski 2024\\jan_2024.cu",
+              "RelativeToolTip": "Januarski 2024\\jan_2024.cu",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAGgAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-30T09:57:20.944Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "jun_2024.cu",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Junski 2024\\jun_2024.cu",
+              "RelativeDocumentMoniker": "Junski 2024\\jun_2024.cu",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Junski 2024\\jun_2024.cu",
+              "RelativeToolTip": "Junski 2024\\jun_2024.cu",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-30T09:57:10.513Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Screenshot 2024-06-30 114559.png",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Junski 2 2023\\Screenshot 2024-06-30 114559.png",
+              "RelativeDocumentMoniker": "Junski 2 2023\\Screenshot 2024-06-30 114559.png",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Junski 2 2023\\Screenshot 2024-06-30 114559.png",
+              "RelativeToolTip": "Junski 2 2023\\Screenshot 2024-06-30 114559.png",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001533|",
+              "WhenOpened": "2024-06-30T09:49:04.53Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "jun2_2023.cu",
+              "DocumentMoniker": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Junski 2 2023\\jun2_2023.cu",
+              "RelativeDocumentMoniker": "Junski 2 2023\\jun2_2023.cu",
+              "ToolTip": "D:\\Paralelni sistemi Github\\Parallel_Systems\\Blanketi\\CUDA_blanketi\\Junski 2 2023\\jun2_2023.cu",
+              "RelativeToolTip": "Junski 2 2023\\jun2_2023.cu",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-06-30T09:47:14.076Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
